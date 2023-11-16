@@ -1,19 +1,60 @@
 import React from "react";
 
+const buttonStyles = {
+  tableBtns: {
+    width: '120px',
+    height: '114px',
+    flexShrink: 0,
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    gap: '10px',
+    borderRadius: '10px',
+    background: '#FFF',
+    boxShadow: '0px 10px 20px 0px rgba(0, 0, 0, 0.10)',
+  },
+  tableBtn: {
+    width: '100px',
+    height: '27px',
+    flexShrink: 0,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: '5px',
+    gap: '10px',
+  },
+  tableBtn1: {
+    background: '#97f18d47',
+    color: '#17BF33',
+  },
+  tableBtn2: {
+    background: '#5b92ff0c',
+    color: '#5B93FF',
+  },
+  tableBtn3: {
+    background: '#e71d3531',
+    color: '#E71D36',
+  },
+  imagSizes: {
+    
+  }
+};
+
 function TableButtons() {
   return (
-    <div className="table-btns">
-      <div className="table-btn">
-      <img src="tableImages/Capa_1.png" alt="" />
-        <p className="tableImages/Capa_1.png">Track</p>
+    <div style={buttonStyles.tableBtns}>
+      <div style={{ ...buttonStyles.tableBtn, ...buttonStyles.tableBtn1 }}>
+        <img src="tableImages/Capa_1.png" alt="" />
+        <p>Track</p>
       </div>
-      <div className="table-btn">
+      <div style={{ ...buttonStyles.tableBtn, ...buttonStyles.tableBtn2 }}>
         <img src="images/Edit.svg" alt="" />
-        <p className="table-btn-blue">Modify</p>
+        <p>Modify</p>
       </div>
-      <div className="table-btn">
+      <div style={{ ...buttonStyles.tableBtn, ...buttonStyles.tableBtn3 }}>
         <img src="tableImages/Iconly/Bold/Delete.png" alt="" />
-        <p className="table-btn-red" >Delete</p>
+        <p>Delete</p>
       </div>
     </div>
   );

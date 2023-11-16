@@ -5,7 +5,7 @@ function OrderLineComp() {
     <table className="order-table">
       <div className="order-header">
         <div className="order-col">
-          <p>Line</p>
+          <p className="h-color">Line</p>
         </div>
         <div className="order-col">
           <p>Name</p>
@@ -56,6 +56,7 @@ function OrderLineComp() {
             <p className="order-status">Pending</p>
         </div>
       </div>
+
     </table>
   );
 }

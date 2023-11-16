@@ -9,7 +9,7 @@
 
 body {
   width: 100vw;
-  height: 100vh;
+  height: 500vh;
   display: flex;
   flex-direction: column;
   background: #F5F6FA;
@@ -107,6 +107,23 @@ body {
 
 /* Requisitions table starts */
 
+
+.td-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}
+
+.td-flex img {
+  width: 36px;
+  height: 36px;
+}
+
+.action-col {
+  width: 10px;
+  background-color: red;
+}
 .requisitions-table {
   width: 1543px;
   padding: 20px;
@@ -121,6 +138,11 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+
+.data-name {
+  background-color: red;
+  width: 200px;
 }
 
 .col-p {
@@ -452,8 +474,10 @@ body {
   width: 1563px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
   padding: 20px;
+}
+.order-header{
+margin-bottom: 20px;
 }
 
 .order-header,
@@ -461,18 +485,22 @@ body {
   width: 100%;
   height: 47px;
   flex-shrink: 0;
-  fill: var(--White-Color, #FFF);
+  background-color: var(--White-Color, #FFF);
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 10px;
   background-color: #fff;
 
 }
 
+
+
 .order-body {
   height: 65px;
   flex-shrink: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.077);
 }
 
 .order-col {
@@ -521,6 +549,7 @@ body {
   flex-shrink: 0;
 }
 
+/* className="h-color */
 /* order line table */
 
 /* purchase requesrt starts */
@@ -769,69 +798,11 @@ body {
 
 /* purchase requesrt starts */
 
-.table-btns {
-  width: 120px;
-  height: 114px;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 10px;
-  background: #FFF;
-  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10);
-}
-
-.table-btn:nth-child(1) {
+.action-col {
   width: 100px;
-  height: 27px;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 5px;
-  background: #97f18d47;
-
-  gap: 10px;
+  background-color: green;
 }
 
-.table-btn:nth-child(2) {
-  width: 100px;
-  height: 27px;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 5px;
-  background: #5b92ff0c;
-
-  gap: 10px;
-}
-
-
-
-.table-btn:nth-child(3) {
-  width: 100px;
-  height: 27px;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border-radius: 5px;
-  background: #e71d3531;
-  gap: 10px;
-}
-
-.table-btn-green{
-  color: #17BF33;
-}
-.table-btn-blue{
-  color: #5B93FF;
-
-}
-.table-btn-red{
-  color: #E71D36;
-
+.td-end{
+  text-align: end;
 }
