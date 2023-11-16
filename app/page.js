@@ -8,83 +8,104 @@ import Approval from "../app/components/approval comp/Approval";
 import PurchaseRequest from "../app/components/Purchase Request/PurchaseRequest";
 import OrderLineComp from "../app/components/order line comp/OrderLineComp";
 import TableButtons from "../app/components/table buttons/TableButtons";
+import "./home.css";
+
 export default function Home() {
   return (
     <>
-      <body>
-        <RequisitionsCards
-          img="icons/Icon (1).png"
-          numbers="203"
-          req="All request"
-        />
+      <main className="home-main">
+        <div className="home-left"></div>
+        <div className="home-right">
+          <div className="search"></div>
+          <div className="wrap">
+            <PurchaseRequest />
+            <Approval />
+          </div>
 
-        <TopSuplier
-          headOne="Supplier Name"
-          headTwo="Total Order "
-          headThree="Total Amount"
-          avatarName="Hannibal Smith"
-          avatar="images/Avatar (2).png"
-          totalOrder="122"
-          price="$46,660"
-        />
+          <div className="home-bottom">
+            <h2>Order Line 04</h2>
 
-        <SearchBar />
-        <RequisitionsTable
-          name="salman"
-          loction="hyderabad"
-          date="Creation Date"
-          stock="total cost"
-          priority="Priority"
-          status="Status"
-          action="Action"
-        />
-
-        <div className="withdraw">
-          <WidthdrawCards
-            requisitions="Purchase Requisitions"
-            persontage="10.0%"
-            numbers="423"
-            month="current Month"
-            img="icons/up.png"
-          />
-
-          <WidthdrawCards
-            requisitions="Purchase Requisitions"
-            persontage="10.0%"
-            numbers="423"
-            month="current Month"
-            img="icons/up.png"
-          />
-
-          <WidthdrawCards
-            requisitions="Purchase Requisitions"
-            persontage="10.0%"
-            numbers="423"
-            month="current Month"
-            img="icons/up.png"
-          />
-
-          <WidthdrawCards
-            requisitions="Purchase Requisitions"
-            persontage="10.0%"
-            numbers="423"
-            month="current Month"
-            img="icons/up.png"
-          />
-
-          <WidthdrawCards
-            requisitions="Purchase Requisitions"
-            persontage="10.0%"
-            numbers="423"
-            month="current Month"
-            img="icons/up.png"
-          />
+            <OrderLineComp/>
+          </div>
         </div>
-        <Approval />
-        <OrderLineComp />
-        <PurchaseRequest />
-        <TableButtons />
-      </body>
+      </main>
     </>
   );
+}
+
+{
+  /* <body>
+<RequisitionsCards
+  img="icons/Icon (1).png"
+  numbers="203"
+  req="All request"
+/>
+
+<TopSuplier
+  headOne="Supplier Name"
+  headTwo="Total Order "
+  headThree="Total Amount"
+  avatarName="Hannibal Smith"
+  avatar="images/Avatar (2).png"
+  totalOrder="122"
+  price="$46,660"
+/>
+
+<SearchBar />
+<RequisitionsTable
+  name="salman"
+  loction="hyderabad"
+  date="Creation Date"
+  stock="total cost"
+  priority="Priority"
+  status="Status"
+  action="Action"
+/>
+
+<div className="withdraw">
+  <WidthdrawCards
+    requisitions="Purchase Requisitions"
+    persontage="10.0%"
+    numbers="423"
+    month="current Month"
+    img="icons/up.png"
+  />
+
+  <WidthdrawCards
+    requisitions="Purchase Requisitions"
+    persontage="10.0%"
+    numbers="423"
+    month="current Month"
+    img="icons/up.png"
+  />
+
+  <WidthdrawCards
+    requisitions="Purchase Requisitions"
+    persontage="10.0%"
+    numbers="423"
+    month="current Month"
+    img="icons/up.png"
+  />
+
+  <WidthdrawCards
+    requisitions="Purchase Requisitions"
+    persontage="10.0%"
+    numbers="423"
+    month="current Month"
+    img="icons/up.png"
+  />
+
+  <WidthdrawCards
+    requisitions="Purchase Requisitions"
+    persontage="10.0%"
+    numbers="423"
+    month="current Month"
+    img="icons/up.png"
+  />
+</div>
+<Approval />
+<OrderLineComp />
+<PurchaseRequest />
+<TableButtons />
+</body> */
 }

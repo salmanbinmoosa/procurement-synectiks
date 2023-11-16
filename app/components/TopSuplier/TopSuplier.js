@@ -1,5 +1,5 @@
 import React from "react";
-
+import './TopSupplier.css'
 function TopSuplier(data) {
   return (
     <>

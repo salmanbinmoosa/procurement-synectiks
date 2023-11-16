@@ -27,17 +27,22 @@ const buttonStyles = {
   tableBtn1: {
     background: '#97f18d47',
     color: '#17BF33',
+    cursur:"pointer"
   },
   tableBtn2: {
     background: '#5b92ff0c',
     color: '#5B93FF',
+    cursur:"pointer"
+
   },
   tableBtn3: {
     background: '#e71d3531',
     color: '#E71D36',
+    cursur:"pointer"
+
   },
   imagSizes: {
-    
+
   }
 };
 
@@ -45,15 +50,15 @@ function TableButtons() {
   return (
     <div style={buttonStyles.tableBtns}>
       <div style={{ ...buttonStyles.tableBtn, ...buttonStyles.tableBtn1 }}>
-        <img src="tableImages/Capa_1.png" alt="" />
+        <img className="track-icon" src="tableImages/Capa_1.png" alt="" />
         <p>Track</p>
       </div>
       <div style={{ ...buttonStyles.tableBtn, ...buttonStyles.tableBtn2 }}>
-        <img src="images/Edit.svg" alt="" />
+        <img className="modify-icon" src="images/Edit.svg" alt="" />
         <p>Modify</p>
       </div>
       <div style={{ ...buttonStyles.tableBtn, ...buttonStyles.tableBtn3 }}>
-        <img src="tableImages/Iconly/Bold/Delete.png" alt="" />
+        <img className="delele-icon" src="tableImages/Iconly/Bold/Delete.png" alt="" />
         <p>Delete</p>
       </div>
     </div>
