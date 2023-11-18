@@ -11,9 +11,10 @@ import TableButtons from "../app/components/table buttons/TableButtons";
 import CreateRfQ from "./components/approval comp/CreateRfQ";
 import "./home.css";
 import PurchaseRequisitionsRequest from "../app/my request components/repeat delete  buttons comp/purchase request my requester/PurchaseRequisitionsRequest";
-import AttachmentDocument from "../app/my request components/Attachment Document/AttachmentDocument"
-import Comment from "../app/my request components/comment/Comment"
-import rejectRequest from "../app/components/rejectRequest Comment/rejectRequest" 
+import AttachmentDocument from "../app/my request components/Attachment Document/AttachmentDocument";
+import Comment from "../app/my request components/comment/Comment";
+import rejectRequest from "../app/components/rejectRequest Comment/rejectRequest";
+import DashboardCards from "../app/components/DashboardCards/DashboardCards"
 
 export default function Home() {
   return (
@@ -34,13 +35,20 @@ export default function Home() {
             <CreateRfQ />
           </div>
           <PurchaseRequisitionsRequest />
-          <AttachmentDocument/>
-          <Comment/>
+          <AttachmentDocument />
+          <Comment />
 
-          <RequisitionsTable/>
-          <TableButtons/>
+          <RequisitionsTable />
+          <TableButtons />
 
-          <rejectRequest/>
+          <rejectRequest />
+          <RequisitionsCards numbers="123" req="pending" />
+
+          <SearchBar />
+
+          <DashboardCards />
+
+        
         </div>
       </main>
     </>

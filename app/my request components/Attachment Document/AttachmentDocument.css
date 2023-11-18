@@ -6,10 +6,8 @@
     flex-direction: column;
     align-items: center;
     gap: 32px;
-
     border-radius: 12px;
     background: var(--color-light-light, #FCFCFD);
-
     /* card effect */
     box-shadow: 0px 10px 13px 0px rgba(17, 38, 146, 0.05);
 }
