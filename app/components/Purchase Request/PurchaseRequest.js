@@ -1,4 +1,6 @@
 import React from "react";
+import './PurchaseRequest.css'
+
 
 function PurchaseRequest() {
   return (

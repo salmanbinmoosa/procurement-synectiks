@@ -8,7 +8,12 @@ import Approval from "../app/components/approval comp/Approval";
 import PurchaseRequest from "../app/components/Purchase Request/PurchaseRequest";
 import OrderLineComp from "../app/components/order line comp/OrderLineComp";
 import TableButtons from "../app/components/table buttons/TableButtons";
+import CreateRfQ from "./components/approval comp/CreateRfQ";
 import "./home.css";
+import PurchaseRequisitionsRequest from "../app/my request components/repeat delete  buttons comp/purchase request my requester/PurchaseRequisitionsRequest";
+import AttachmentDocument from "../app/my request components/Attachment Document/AttachmentDocument"
+import Comment from "../app/my request components/comment/Comment"
+import rejectRequest from "../app/components/rejectRequest Comment/rejectRequest" 
 
 export default function Home() {
   return (
@@ -25,8 +30,17 @@ export default function Home() {
           <div className="home-bottom">
             <h2>Order Line 04</h2>
 
-            <OrderLineComp/>
+            <OrderLineComp />
+            <CreateRfQ />
           </div>
+          <PurchaseRequisitionsRequest />
+          <AttachmentDocument/>
+          <Comment/>
+
+          <RequisitionsTable/>
+          <TableButtons/>
+
+          <rejectRequest/>
         </div>
       </main>
     </>

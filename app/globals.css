@@ -299,7 +299,7 @@ body {
 
 .body-row {
   width: 100%;
-  height:fit-content;
+  height: fit-content;
   background-color: #fff;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -316,7 +316,8 @@ body {
   flex-shrink: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.077);
 }
-.order-first-row{
+
+.order-first-row {
   border: none;
 }
 
@@ -625,6 +626,60 @@ body {
 }
 
 
+/* table btns */
+.tableBtns {
+  width: 120px;
+  height: 114px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btns {
+  width: 100px;
+  height: 27px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 5px;
+  background: #97f18d2c;
+
+  color: #17BF33;
+  font-family: Nunito;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  gap: 12px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: start;
+  padding-left: 20px;
+}
+
+.track {
+  color: #17BF33;
+  background: #97f18d2c;
+}
+
+.modify {
+  background: #5b92ff14;
+  color: #5B93FF;
+}
+
+.delete {
+  background: #e71d3511;
+  color: #E71D36;
+}
+
+
 /* table buttons */
 .delele-icon {
   width: 11.111px;
@@ -646,5 +701,4 @@ body {
 
 /* table buttons */
 
-
-
+/* table btns */
