@@ -20,11 +20,12 @@
 }
 
 .top-suplier {
-    width: 408px;
-    height: 1px;
-    height: fit-content;
+    width: 465px;
+    height: 462px;
     flex-shrink: 0;
+    height: fit-content;
     background-color: #fff;
+    flex-shrink: 0;
     padding: 20px 30px;
     gap: 5px;
     display: flex;
@@ -44,7 +45,7 @@
 }
 
 .col {
-    width: 100px;
+    width: 140px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -52,7 +53,7 @@
 
 .head-row .col:nth-child(1),
 .sup-details .col:nth-child(1) {
-    width: 140px;
+    width: 170px;
     justify-content: space-between;
 }
 

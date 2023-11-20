@@ -7,6 +7,10 @@
 }
 
 
+button{
+  cursor: pointer;
+}
+
 body {
   width: 100vw;
   height: 500vh;
@@ -269,7 +273,7 @@ body {
 
 /* order line table */
 .order-table {
-  width: 1563px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -699,3 +703,164 @@ body {
 /* table buttons */
 
 /* table btns */
+
+
+/* checkin cmponns */
+.comp-checking {
+  width: 100%;
+  height: 500vh;
+  background-color: whitesmoke;
+  display: flex;
+  gap: 60px;
+  flex-direction: column;
+  padding-top: 200px;
+
+}
+
+/* checkin cmponns */
+
+
+
+
+
+
+/* layout */
+.layout {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  background: #F5F6FA;
+  display: flex;
+  overflow: hidden;
+}
+
+.left {
+  width: 15%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.right {
+  width: 85%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 84px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+
+}
+
+.dash {
+  width: 100%;
+  height: 90%;
+  padding: 30px 30px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /* display: none; */
+}
+
+.dashboard-karts {
+  display: inline-flex;
+  padding: 29.997px 75px 28.003px 50px;
+  align-items: center;
+  border-radius: 12px;
+  background: var(--surface-white, #FFF);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* card effect */
+  box-shadow: 0px 10px 13px 0px rgba(17, 38, 146, 0.05);
+}
+
+.chartz {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.chart-left {
+  width: 935px;
+  height: 469px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #FFF;
+
+  /* card effect */
+  box-shadow: 0px 10px 13px 0px rgba(17, 38, 146, 0.05);
+}
+
+.chart-right {
+  width: 588px;
+  height: 468px;
+
+  border-radius: 12px;
+  background: #FFF;
+
+  /* CARDS */
+  box-shadow: 0px 10px 13px 0px rgba(17, 38, 146, 0.05);
+}
+
+
+.purchase-order {
+  width: 100%;
+  height: 472px;
+  flex-shrink: 0;
+
+  border-radius: 12px;
+  background: #FFF;
+}
+
+.bottom-area{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  
+}
+.bottom-card {
+  width: 336px;
+  height: 462px;
+  flex-shrink: 0;
+  background-color: #fff;
+}
+
+.bottom-card-two {
+  width: 484px;
+  height: 462px;
+  flex-shrink: 0;
+
+  background-color: #FFF;
+  filter: drop-shadow(0px 10px 60px rgba(226, 236, 249, 0.50));
+}
+
+.id{
+  color: green;
+}
+
+/* layout */
+
+
+
+
+
+/* all request css */
+.action-column img {
+  cursor: pointer;
+}
+/* all request css */
+
+
+
+/* PurchaseRequestPage */
+
+
+
+/* PurchaseRequestPage */

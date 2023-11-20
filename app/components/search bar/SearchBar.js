@@ -4,7 +4,7 @@ function SearchBar() {
   const styles = {
     searchBar: {
       display: "flex",
-      width: "434px",
+      maxWidth: "434px",
       height: "40px",
       padding: "12px 16px",
       justifyContent: "center",

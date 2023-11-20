@@ -45,7 +45,6 @@ function RequisitionsCards(data) {
 
   return (
     <>
-      <body style={styles.bodyBg}>
         <div style={styles.reqCard} className="req-card">
           <div className="req-left">
             <img style={styles.reqLeftImg} src={data.img} alt="" />
@@ -56,7 +55,7 @@ function RequisitionsCards(data) {
             <p style={styles.reqCardBody}>{data.req}</p>
           </div>
         </div>
-      </body>
+
     </>
   );
 }

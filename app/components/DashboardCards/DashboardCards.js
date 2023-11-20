@@ -1,4 +1,6 @@
 import React from 'react'
+
+// import WidthdrawCards from withdraw folder
 import WidthdrawCards from "../withdraw comps/WidthdrawCards"
 export default function DashboardCards() {
   return (

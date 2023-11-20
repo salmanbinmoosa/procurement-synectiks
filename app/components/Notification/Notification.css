@@ -1,0 +1,13 @@
+.Notification {
+    display: flex;
+    width: 100%;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 8px;
+
+    border-radius: 16px;
+    background: var(--background-positive, #E1FCDE);
+}
+

@@ -3,11 +3,11 @@ import React from "react";
 function RequisitionsTable(data) {
   const tableStyles = {
     table: {
-      width: "1543px",
+      width: "100%",
       flexShrink: 0,
       padding: "15px",
       paddingLeft: "0px",
-      backgroundColor: "#FFF",
+      // backgroundColor: "#FFF",
       filter: "drop-shadow(0px 10px 13px rgba(17, 38, 146, 0.05))",
     },
     th: {
@@ -95,6 +95,214 @@ function RequisitionsTable(data) {
         </tr>
       </thead>
       <tbody>
+        <tr style={tableStyles.tr}>
+          <td style={tableStyles.td}>
+            <div className="td-flex">
+              {" "}
+              <img
+                src="images/Avatar (2).png"
+                alt="Avatsar 1"
+                style={tableStyles.img}
+              />
+              <p style={tableStyles.tdFlexP}>Justin Septimus</p>
+            </div>
+          </td>
+          <td style={tableStyles.td}>Bouvet Island</td>
+          <td style={tableStyles.td}>06/07/2023</td>
+          <td style={tableStyles.td}>$299.14</td>
+          <td style={tableStyles.td}>
+            <p style={tableStyles.tdFlexP}>Medium</p>
+          </td>
+          <td className="Hold-data" style={tableStyles.td}>
+            On Hold
+          </td>
+          <td className="action-column" style={tableStyles.tdEnd}>
+            <img className="showMore" src="/images/Shape/More.png" alt="" />{" "}
+          </td>
+        </tr>
+
+        <tr style={tableStyles.tr}>
+          <td style={tableStyles.td}>
+            <div className="td-flex">
+              {" "}
+              <img
+                src="images/Avatar (2).png"
+                alt="Avatsar 1"
+                style={tableStyles.img}
+              />
+              <p style={tableStyles.tdFlexP}>Justin Septimus</p>
+            </div>
+          </td>
+          <td style={tableStyles.td}>Bouvet Island</td>
+          <td style={tableStyles.td}>06/07/2023</td>
+          <td style={tableStyles.td}>$299.14</td>
+          <td style={tableStyles.td}>
+            <p style={tableStyles.tdFlexP}>Medium</p>
+          </td>
+          <td className="Hold-data" style={tableStyles.td}>
+            On Hold
+          </td>
+          <td className="action-column" style={tableStyles.tdEnd}>
+            <img src="/images/Shape/More.png" alt="" />{" "}
+          </td>
+        </tr>
+
+        <tr style={tableStyles.tr}>
+          <td style={tableStyles.td}>
+            <div className="td-flex">
+              {" "}
+              <img
+                src="images/Avatar (2).png"
+                alt="Avatsar 1"
+                style={tableStyles.img}
+              />
+              <p style={tableStyles.tdFlexP}>Justin Septimus</p>
+            </div>
+          </td>
+          <td style={tableStyles.td}>Bouvet Island</td>
+          <td style={tableStyles.td}>06/07/2023</td>
+          <td style={tableStyles.td}>$299.14</td>
+          <td style={tableStyles.td}>
+            <p style={tableStyles.tdFlexP}>Medium</p>
+          </td>
+          <td className="Hold-data" style={tableStyles.td}>
+            On Hold
+          </td>
+          <td className="action-column" style={tableStyles.tdEnd}>
+            <img src="/images/Shape/More.png" alt="" />{" "}
+          </td>
+        </tr>
+
+        <tr style={tableStyles.tr}>
+          <td style={tableStyles.td}>
+            <div className="td-flex">
+              {" "}
+              <img
+                src="images/Avatar (2).png"
+                alt="Avatsar 1"
+                style={tableStyles.img}
+              />
+              <p style={tableStyles.tdFlexP}>Justin Septimus</p>
+            </div>
+          </td>
+          <td style={tableStyles.td}>Bouvet Island</td>
+          <td style={tableStyles.td}>06/07/2023</td>
+          <td style={tableStyles.td}>$299.14</td>
+          <td style={tableStyles.td}>
+            <p style={tableStyles.tdFlexP}>Medium</p>
+          </td>
+          <td className="Hold-data" style={tableStyles.td}>
+            On Hold
+          </td>
+          <td className="action-column" style={tableStyles.tdEnd}>
+            <img src="/images/Shape/More.png" alt="" />{" "}
+          </td>
+        </tr>
+
+        <tr style={tableStyles.tr}>
+          <td style={tableStyles.td}>
+            <div className="td-flex">
+              {" "}
+              <img
+                src="images/Avatar (2).png"
+                alt="Avatsar 1"
+                style={tableStyles.img}
+              />
+              <p style={tableStyles.tdFlexP}>Justin Septimus</p>
+            </div>
+          </td>
+          <td style={tableStyles.td}>Bouvet Island</td>
+          <td style={tableStyles.td}>06/07/2023</td>
+          <td style={tableStyles.td}>$299.14</td>
+          <td style={tableStyles.td}>
+            <p style={tableStyles.tdFlexP}>Medium</p>
+          </td>
+          <td className="Hold-data" style={tableStyles.td}>
+            On Hold
+          </td>
+          <td className="action-column" style={tableStyles.tdEnd}>
+            <img src="/images/Shape/More.png" alt="" />{" "}
+          </td>
+        </tr>
+
+        <tr style={tableStyles.tr}>
+          <td style={tableStyles.td}>
+            <div className="td-flex">
+              {" "}
+              <img
+                src="images/Avatar (2).png"
+                alt="Avatsar 1"
+                style={tableStyles.img}
+              />
+              <p style={tableStyles.tdFlexP}>Justin Septimus</p>
+            </div>
+          </td>
+          <td style={tableStyles.td}>Bouvet Island</td>
+          <td style={tableStyles.td}>06/07/2023</td>
+          <td style={tableStyles.td}>$299.14</td>
+          <td style={tableStyles.td}>
+            <p style={tableStyles.tdFlexP}>Medium</p>
+          </td>
+          <td className="Hold-data" style={tableStyles.td}>
+            On Hold
+          </td>
+          <td className="action-column" style={tableStyles.tdEnd}>
+            <img src="/images/Shape/More.png" alt="" />{" "}
+          </td>
+        </tr>
+
+        <tr style={tableStyles.tr}>
+          <td style={tableStyles.td}>
+            <div className="td-flex">
+              {" "}
+              <img
+                src="images/Avatar (2).png"
+                alt="Avatsar 1"
+                style={tableStyles.img}
+              />
+              <p style={tableStyles.tdFlexP}>Justin Septimus</p>
+            </div>
+          </td>
+          <td style={tableStyles.td}>Bouvet Island</td>
+          <td style={tableStyles.td}>06/07/2023</td>
+          <td style={tableStyles.td}>$299.14</td>
+          <td style={tableStyles.td}>
+            <p style={tableStyles.tdFlexP}>Medium</p>
+          </td>
+          <td className="Hold-data" style={tableStyles.td}>
+            On Hold
+          </td>
+          <td className="action-column" style={tableStyles.tdEnd}>
+            <img src="/images/Shape/More.png" alt="" />{" "}
+          </td>
+        </tr>
+
+        <tr style={tableStyles.tr}>
+          <td style={tableStyles.td}>
+            <div className="td-flex">
+              {" "}
+              <img
+                src="images/Avatar (2).png"
+                alt="Avatsar 1"
+                style={tableStyles.img}
+              />
+              <p style={tableStyles.tdFlexP}>Justin Septimus</p>
+            </div>
+          </td>
+          <td style={tableStyles.td}>Bouvet Island</td>
+          <td style={tableStyles.td}>06/07/2023</td>
+          <td style={tableStyles.td}>$299.14</td>
+          <td style={tableStyles.td}>
+            <p style={tableStyles.tdFlexP}>Medium</p>
+          </td>
+          <td className="Hold-data" style={tableStyles.td}>
+            On Hold
+          </td>
+          <td className="action-column" style={tableStyles.tdEnd}>
+            <img src="/images/Shape/More.png" alt="" />{" "}
+          </td>
+        </tr>
+
         <tr style={tableStyles.tr}>
           <td style={tableStyles.td}>
             <div className="td-flex">
