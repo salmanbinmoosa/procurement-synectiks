@@ -1,0 +1,99 @@
+
+/* width darws cards starts */
+.withdraw {
+    display: flex;
+    align-items: flex-start;
+    gap: 71px;
+  
+    display: inline-flex;
+    padding: 29.997px 83px 30.003px 50px;
+    align-items: center;
+  
+    border-radius: 12px;
+    background: var(--surface-white, #FFF);
+  
+    /* card effect */
+    box-shadow: 0px 10px 13px 0px rgba(17, 38, 146, 0.05);
+  }
+  
+  .withdraw-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .card-top {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+  }
+  
+  .persontage {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 8px;
+    background: var(--surface-background, #F4F5F9);
+  }
+  
+  
+  .persontage img {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .persontage p {
+  
+    color: var(--brand-primary, #6E39CB);
+  
+    /* Body/Small */
+    font-family: Lato;
+    font-size: 0.79rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  
+  .withdraw-cards p:nth-child(1) {
+    color: var(--type-dark, #3A3541);
+  
+    /* Title/H6 */
+    font-family: Lato;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .nums {
+  
+    color: var(--brand-primary, #6E39CB);
+  
+    /* Headlines/H1 */
+    font-family: Lato;
+    font-size: 1.80188rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .withdraw-cards p:nth-child(3) {
+    color: var(--type-light, #89868D);
+  
+    /* Body/large */
+    font-family: Lato;
+    font-size: 0.88875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  /* width darws cards ends */
+  
+  

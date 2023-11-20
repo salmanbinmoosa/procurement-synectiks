@@ -1,4 +1,5 @@
 import React from "react";
+import './RequisitionBtns.css'
 
 function RequisitionsTable(data) {
   const tableStyles = {
@@ -114,7 +115,7 @@ function RequisitionsTable(data) {
             <p style={tableStyles.tdFlexP}>Medium</p>
           </td>
           <td className="Hold-data" style={tableStyles.td}>
-            On Hold
+          <button className="on-hold">on hold</button>
           </td>
           <td className="action-column" style={tableStyles.tdEnd}>
             <img className="showMore" src="/images/Shape/More.png" alt="" />{" "}
@@ -412,3 +413,19 @@ function RequisitionsTable(data) {
 }
 
 export default RequisitionsTable;
+
+
+{/* <div className="prio">
+    <img src="../assets/priority1.png" alt="" />
+    <h4 className="medium-head">Medium</h4>
+</div>
+
+<div className="prio">
+    <img src="../assets/high-prio.png" alt="" />
+    <h4 className="high-head">High</h4>
+</div>
+
+<div className="prio">
+    <img src="../assets/low-prio.png" alt="" />
+    <h4 className="low-head">Low</h4>
+</div> */}

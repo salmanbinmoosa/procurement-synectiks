@@ -1,0 +1,33 @@
+.RequestByDay{
+    width: 336px;
+height: 462px;
+flex-shrink: 0;
+background-color: #fff;
+padding: 24px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+margin-bottom: 100px;
+}
+
+.days{
+    display: grid;
+    gap: 10px;
+    grid-template-columns:repeat(7,1fr) ;
+    width: 100%;
+}
+
+.rectangle {
+    width: 28.106px;
+height: 7.492px;
+flex-shrink: 0;
+
+border-radius: 4px;
+background: var(--brand-tertiary, #B3BEFF);
+}
+
+.wrap {
+    display: flex;
+        width: 100%;
+   
+}

@@ -26,6 +26,16 @@ import ConfirmRequest from '../app/components/confirmRequest/ConfirmRequest'
 
 import RejectRequestComment from '../app/components/RejectRequest Comment/RejectRequestComment'
 
+import Notification from '../app/components/Notification/Notification'
+
+import PurplePersontage from '../app/components/withdraw comps/persontage/PurplePersontage'
+import RedPersontage from '../app/components/withdraw comps/persontage//RedPersontage'
+import GreenPersontage from '../app/components/withdraw comps/persontage/GreenPersontage'
+import SkyPersontage from '../app/components/withdraw comps/persontage/SkyPersontage'
+
+import  Resolve from '../app/components/Resolve/Resolve'
+
+import RequestByDay from '../app/components/RequestByDay/RequestByDay'
 export default function Home() {
 
   return (
@@ -34,66 +44,33 @@ export default function Home() {
         <a className="id" href="">
           purchase requesation
         </a>
+        <PurplePersontage/>
+        <RedPersontage/>
+        <GreenPersontage/>
+        <SkyPersontage/>
       </div>
-
       <div className="right">
         <header>
-          <SearchBar />
+          {/* <SearchBar /> */}
         </header>
+<Resolve/>
 
         {/* page 1 */}
+        <Notification/>
 
         {/* page 2 */}
         {/* <PurchaseRequisitionsPage/> */}
 
         {/* page 3 */}
-        <PurchaseRequestPage/>
+        {/* <PurchaseRequestPage/> */}
         
 
-        {/* <div className="dash"> */}
+         <div className="dash"> 
           <h2>Dashboard</h2>
           <p>Hello, James. Welcome to Synectiks</p>
 
           <div className="dashboard-karts">
-            <WidthdrawCards
-              requisitions="Purchase Requisitions"
-              persontage="10.0%"
-              numbers="423"
-              month="current Month"
-              img="icons/up.png"
-            />
-
-            <WidthdrawCards
-              requisitions="Purchase Order"
-              persontage="10.0%"
-              numbers="$2,868.99"
-              month="current Month"
-              img="icons/up.png"
-            />
-
-            <WidthdrawCards
-              requisitions="Purchase Requisitions"
-              persontage="10.0%"
-              numbers="423"
-              month="current Month"
-              img="icons/up.png"
-            />
-
-            <WidthdrawCards
-              requisitions="Purchase Requisitions"
-              persontage="10.0%"
-              numbers="423"
-              month="current Month"
-              img="icons/up.png"
-            />
-
-            <WidthdrawCards
-              requisitions="Purchase Requisitions"
-              persontage="10.0%"
-              numbers="423"
-              month="current Month"
-              img="icons/up.png"
-            />
+            <WidthdrawCards />
           </div>
           {/*  */}
 
@@ -102,8 +79,9 @@ export default function Home() {
 
             <div className="chart-right"></div>
           </div>
+          <div className="purchase-order">
 
-          <div className="purchase-order"></div>
+          </div>
 
           <div className="bottom-area">
             <TopSuplier
@@ -116,15 +94,15 @@ export default function Home() {
               price="$46,660"
             />
 
-            <div className="bottom-card">
-
-            </div>
+          <RequestByDay/>
 
             <div className="bottom-card-two"></div>
-          </div>
-            <RejectRequestComment/>
-        {/* </div> */}
 
+
+            
+          </div>
+            {/* <RejectRequestComment/> */}
+     </div>  
 
       </div>
     </div>

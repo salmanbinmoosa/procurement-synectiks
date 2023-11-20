@@ -1,19 +1,56 @@
-import React from 'react'
+import React from "react";
+import PurplePersontage from "./persontage/PurplePersontage";
+import RedPersontage from "./persontage/RedPersontage";
+import GreenPersontage from "./persontage/GreenPersontage";
+import SkyPersontage from "./persontage/SkyPersontage";
+import './WithdrawCards.css'
 function WidthdrawCards(data) {
   return (
-
-   <div className="withdraw-cards">
-
-    <div className="card-top">
-      <p>{data.requisitions}</p>
-      <div className="persontage">
-        <img src={data.img} alt="" />
-        <p>{data.persontage}</p>
+    <>
+      <div className="withdraw-cards">
+        <div className="card-top">
+          <p>Purchase Requisitions</p>
+          <PurplePersontage />
+        </div>
+        <p className="nums">423</p>
+        <p>current Month</p>
       </div>
-    </div>
-    <p className="nums">{data.numbers}</p>
-    <p>{data.month}</p>
-  </div>
-  )
+
+      <div className="withdraw-cards">
+        <div className="card-top">
+          <p>Purchase Requisitions</p>
+         <RedPersontage/>
+        </div>
+        <p className="nums">423</p>
+        <p>current Month</p>
+      </div>
+      <div className="withdraw-cards">
+        <div className="card-top">
+          <p>Purchase Requisitions</p>
+          <GreenPersontage />
+        </div>
+        <p className="nums">423</p>
+        <p>current Month</p>
+      </div>
+
+      <div className="withdraw-cards">
+        <div className="card-top">
+          <p>Purchase Requisitions</p>
+          <SkyPersontage />
+        </div>
+        <p className="nums">423</p>
+        <p>current Month</p>
+      </div>
+
+      <div className="withdraw-cards">
+        <div className="card-top">
+          <p>Purchase Requisitions</p>
+          <SkyPersontage />
+        </div>
+        <p className="nums">423</p>
+        <p>current Month</p>
+      </div>
+    </>
+  );
 }
-export default WidthdrawCards
+export default WidthdrawCards;

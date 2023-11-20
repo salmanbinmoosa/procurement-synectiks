@@ -1,0 +1,84 @@
+.persontage {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    border-radius: 8px;
+    background: var(--surface-background, #F4F5F9);
+}
+
+
+.PurpleTxt {
+    color: var(--brand-primary, #6E39CB);
+
+    /* Body/Small */
+    font-family: Lato;
+    font-size: 0.79rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.RedTxt {
+    color: var(--status-danger, #F93131);
+
+    /* Body/Small */
+    font-family: Lato;
+    font-size: 0.79rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.red-persontage {
+
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 8px;
+    background: #FFEFEF;
+}
+
+.greenPersontage {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 8px;
+    background: #FFEFEF;
+
+    border-radius: 8px;
+    background: #EEFFEB;
+}
+
+.Skypersontage {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    border-radius: 8px;
+    background: #F0F9FC;
+}
+
+
+.img-size {
+    width: 10px;
+    height: 10px;
+}
+.redTxt {
+    color: var(--status-danger, #F93131);
+    /* Body/Small */
+    font-family: Lato;
+    font-size: 0.79rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: red;
+}

@@ -1,0 +1,55 @@
+.resolveContainer {
+    display: flex;
+    width: 120px;
+    padding: 10px 10px 15px 10px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    background: #FFF;
+
+    /* Elevation/Medium */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.16);
+    flex-direction: column;
+    gap: 20px;
+}
+
+.resolveContainer button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+}
+
+.resolveContainer button:nth-child(1) {
+
+    color: var(--foreground-primary, #1A212B);
+    font-family: Nunito;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.resolveContainer button:nth-child(2) {
+    color: var(--text-secondary, #728197);
+    font-family: Nunito;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.resolve {
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+}
+
+.reply {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
